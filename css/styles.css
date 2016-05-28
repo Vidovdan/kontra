@@ -47,7 +47,7 @@ footer{
 .navbar-default {
     background-color: transparent;
     border: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .nav>li>a {

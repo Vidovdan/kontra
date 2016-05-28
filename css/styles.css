@@ -3,17 +3,17 @@ body{
 }
 
 header{
-	background: url("/images/background/subtle_carbon.png");
+	background: url("images/background/subtle_carbon.png");
 	border-radius: 0;
 	border: 0;
 }
 
 footer{
-	background: url("/images/background/subtle_carbon.png");
+	background: url("images/background/subtle_carbon.png");
 }
 
 #logo-img{
-	background: url("/images/logo/prva.jpg") no-repeat;
+	background: url("images/logo/prva.jpg") no-repeat;
 	width: 178px;
 	height: 100px;
 	padding: 10px 10px 10px 10px;

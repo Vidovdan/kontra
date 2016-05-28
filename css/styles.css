@@ -74,6 +74,10 @@ footer{
 		margin: auto;
 		margin-top: 12px;
 	}
+
+	#bigImage{
+		width: 90%;
+	}
 }
 
 .hello{

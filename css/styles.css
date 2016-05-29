@@ -1,18 +1,22 @@
+header{
+	background: url("../images/background/subtle_carbon.png");
+	border-radius: 0;
+	border: 0;
+	margin-top: -5px;
+}
+
 body{
 	background: #5b6073; /* fallback for old browsers */
 	background: -webkit-linear-gradient(to bottom, #5B6073 , #1C1F24); /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to bottom, #5B6073 , #1C1F24); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-header{
-	background: url("../images/background/subtle_carbon.png");
-	border-radius: 0;
-	border: 0;
-}
-
 footer{
 	background: url("../images/background/subtle_carbon.png");
+	color: #AB0000;
 }
+
+
 
 #logo-img{
 	background: url("../images/logo/prva.jpg") no-repeat;
@@ -61,7 +65,7 @@ footer{
 }
 
 
-#bigImage{
+#slide{
 	display: block;
 	margin: auto;
 	margin-top:10px;
@@ -75,7 +79,7 @@ footer{
 		margin-top: 12px;
 	}
 
-	#bigImage{
+	#slide{
 		width: 90%;
 	}
 }
@@ -99,4 +103,61 @@ footer{
 
 .navbar-default .navbar-toggle {
     border-color: #586073;
+}
+
+#naslov h1{
+	font-weight: bold;
+	color: #AB0000;
+	text-align: center;
+}
+
+#naslov{
+	color: white;
+	text-align: justify;
+	margin-bottom: 15px;
+}
+
+
+
+#glavno{
+	color: white;
+	text-align: justify;
+}
+
+#glavno h2{
+	text-align: center;
+}
+
+footer a{
+	color: #AB0000;
+}
+
+footer a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+footer span{
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+
+footer #copyright a{
+	font-size: 0.8em;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
+
+footer #copyright a:hover{
+	color: #AB0000;
+}
+
+footer p.col-xs-6{
+	text-align: center;
+	padding-top: 10px;
+}
+
+#prvipar{
+	border-right: 1px solid white;
 }

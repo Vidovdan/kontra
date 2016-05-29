@@ -10,6 +10,21 @@
 			<script src="js/bootstrap.min.js"></script>
 			<script src="js/script.js"></script>
 
+
+			<script type="text/javascript">
+
+			var slideimages = new Array() // create new array to preload images
+			slideimages[0] = new Image() // create new instance of image object
+			slideimages[0].src = "images/slideshow/kontra1.jpg" // set image src property to image path, preloading image in the process
+			slideimages[1] = new Image()
+			slideimages[1].src = "images/slideshow/kontra2.jpg"
+			slideimages[2] = new Image()
+			slideimages[2].src = "images/slideshow/kontra3.jpg"
+
+			</script>
+
+
+
 			  <meta charset="utf-8">
 			  <meta name="viewport" content="width=device-width"/>
 			  <title>KONTRA</title>	  
@@ -72,16 +87,87 @@
 							        </ul>
 							    </div>
 				</header>
-			<footer> </footer>
 
 
-			<div class="container">
-    <div id="main-tile" class="row">
-      <div class="col-xs-12">
-        <img id="bigImage" src="images/logo/kontra003.jpg" alt="naslovna"/> 
-      </div>
-    </div>
-    </div>
+							<div class="container">
+							    <div id="main-tile" class="row">
+							      	<div class="col-xs-12">
+							        	<img id="slide" src="images/slideshow/kontra001.jpg" alt="naslovna"/> 
+							      	</div>
+							    </div>
+							</div>
 
+							<script type="text/javascript">
+
+							//variable that will increment through the images
+							var step=0
+
+							function slideit(){
+							 //if browser does not support the image object, exit.
+							 if (!document.images)
+							  return
+							 document.getElementById('slide').src = slideimages[step].src
+							 if (step<2)
+							  step++
+							 else
+							  step=0
+							 //call function "slideit()" every 2.5 seconds
+							 setTimeout("slideit()",3000)
+							}
+
+							slideit()
+
+							</script>
+
+							<div class="container" id="naslov">
+							<h1> KONTRA </h1>
+							<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris posuere sit amet lorem non egestas. Vestibulum in tortor a dui tincidunt varius. Quisque et ultricies nisl, a imperdiet lorem. Etiam lobortis ante lorem, ac rutrum ante lobortis quis. Cras ultricies augue eu odio semper, a tempus turpis condimentum. </p> </div>
+
+
+		<div class="container">
+			<div class="row" id=glavno>
+    			<div class="col-xs-6" id="prvipar">
+    				
+    				<h2>Novosti</h2> <hr>
+    				<div id="kocka">
+    				<p>
+    				<h3>dolor sit</h3> amet, consectetur adipiscing elit. Mauris posuere sit amet lorem non egestas. Vestibulum in tortor a dui tincidunt varius. Quisque et ultricies nisl, a imperdiet lorem. Etiam lobortis ante lorem, ac rutrum ante lobortis quis. Cras ultricies augue eu odio semper, a tempus turpis condimentum. Nulla tempor, lectus in molestie condimentum, ante orci viverra erat, quis semper nulla tellus eu massa. Aenean semper, arcu vel interdum dictum, magna dui tempor ligula, non accumsan quam orci non enim. Maecenas finibus sit amet libero non porta. Maecenas placerat diam velit, vitae bibendum magna efficitur eget.<br>
+    				<h3>Lorem ipsum dolor</h3> sit amet, consectetur adipiscing elit. Mauris posuere sit amet lorem non egestas. Vestibulum in tortor a dui tincidunt varius. Quisque et ultricies nisl, a imperdiet lorem. Etiam lobortis ante lorem, ac rutrum ante lobortis quis. Cras ultricies augue eu odio semper, a tempus turpis condimentum. Nulla tempor, lectus in molestie condimentum, ante orci viverra erat, quis semper nulla tellus eu massa. Aenean semper, arcu vel interdum dictum, magna dui tempor ligula, non accumsan quam orci non enim. Maecenas finibus sit amet libero non porta. Maecenas placerat diam velit, vitae bibendum magna efficitur eget.</p>
+    			</div>
+    			</div>
+
+
+
+    			<div class="col-xs-6" id="drugipar">
+    				<p>
+    				<h2>Aktuelno</h2> <hr>
+    				<h3>Lorem ipsum</h3> dolor sit amet, consectetur adipiscing elit. Mauris posuere sit amet lorem non egestas. Vestibulum in tortor a dui tincidunt varius. Quisque et ultricies nisl, a imperdiet lorem. Etiam lobortis ante lorem, ac rutrum ante lobortis quis. Cras ultricies augue eu odio semper, a tempus turpis condimentum. <br> <br>
+    				Nulla tempor, lectus in molestie condimentum, ante orci viverra erat, quis semper nulla tellus eu massa. Aenean semper, arcu vel interdum dictum, magna dui tempor ligula, non accumsan quam orci non enim. Maecenas finibus sit amet libero non porta. Maecenas placerat diam velit, vitae bibendum magna efficitur eget. <br> <br>
+    				<h3>Lorem ipsum</h3> dolor sit amet, consectetur adipiscing elit. Mauris posuere sit amet lorem non egestas. Vestibulum in tortor a dui tincidunt varius. Quisque et ultricies nisl, a imperdiet lorem. Etiam lobortis ante lorem, ac rutrum ante lobortis quis.Cras ultricies augue eu odio semper, a tempus turpis condimentum. Nulla tempor, lectus in molestie condimentum, ante orci viverra erat, quis semper nulla tellus eu massa. Aenean semper, arcu vel interdum dictum, magna dui tempor ligula, non accumsan quam orci non enim. Maecenas finibus sit amet libero non porta. Maecenas placerat diam velit, vitae bibendum magna efficitur eget.</p>
+    			</div>
+			</div>
+		</div>
+
+
+			<footer> 
+				<div class="container">
+				<p class="col-xs-6"><span>Kontakt:</span><br>
+				Marko Terzić<br>
+				Amfilohija Radovića 54<br>
+				81000 Podgorica<br>
+				Crna Gora<br>
+				kontra@kontra.net<br>
+				+38269555555<br>
+				</p>
+
+				<p class="col-xs-6"><span>Pratite nas na društvenim mrežama:</span><br>
+				<a href="facebook.com"> Facebook </a><br>
+				<a href="instagram.com"> Instagram </a><br>
+				<a href="twitter.com"> Twitter </a><br>
+				</p>
+				</div>
+
+				<div class="text-center" id="copyright"> <a href="index.html"> &copy; Copyright Vidovdanija 2016 </a></div>
+			</footer>
 		</body>
 	</html>

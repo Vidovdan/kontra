@@ -122,10 +122,15 @@ footer{
 #glavno{
 	color: white;
 	text-align: justify;
+	background-color: gray;
+	background: url("../images/background/navy_blue.png");
 }
 
 #glavno h2{
 	text-align: center;
+	color: black;
+	font-size: 25px;
+    font-weight: 700;
 }
 
 footer a{
@@ -159,5 +164,5 @@ footer p.col-xs-6{
 }
 
 #prvipar{
-	border-right: 1px solid white;
+	border-right: 3px solid #AB0000;
 }

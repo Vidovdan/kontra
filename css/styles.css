@@ -123,14 +123,19 @@ footer{
 	color: white;
 	text-align: justify;
 	background-color: gray;
-	background: url("../images/background/navy_blue.png");
+	background: url("../images/background/blackorchid.png");
+	margin-bottom: 20px;
 }
 
 #glavno h2{
 	text-align: center;
-	color: black;
+	color: #AB0000;
 	font-size: 25px;
     font-weight: 700;
+}
+
+hr{
+	border-top: 1px solid #AB0000;
 }
 
 footer a{

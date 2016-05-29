@@ -73,16 +73,15 @@ footer{
 	width: 70%;
 }
 
-@media(max-width: 768px){
-	#logo-img{
-		margin: auto;
-		margin-top: 12px;
-	}
 
-	#slide{
-		width: 90%;
-	}
-}
+
+
+
+
+
+
+
+
 
 .hello{
 	padding-top: 85px;
@@ -135,6 +134,10 @@ footer{
     font-weight: 700;
 }
 
+#glavno h3{
+	font-size: 20px;
+}
+
 hr{
 	border-top: 1px solid #AB0000;
 }
@@ -171,4 +174,19 @@ footer p.col-xs-6{
 
 #prvipar{
 	border-right: 3px solid #AB0000;
+}
+
+
+@media(max-width: 768px){
+	#logo-img{
+		margin: auto;
+		margin-top: 12px;
+	}
+
+	#slide{
+		width: 90%;
+	}
+	#prvipar{
+	border-right:0px solid #AB0000;
+}
 }

@@ -18,13 +18,14 @@ footer{
 
 
 
-#logo-img{
+a#logo-img{
 	background: url("../images/logo/prva.jpg") no-repeat;
 	width: 178px;
 	height: 100px;
 	padding: 10px 10px 10px 10px;
 	margin-top: 12px;
 	margin-left: 12px;
+	float: left;
 }
 
 
@@ -185,9 +186,11 @@ footer p.col-xs-6{
 
 
 @media(max-width: 768px){
-	#logo-img{
+	a#logo-img{
+		display: block;
 		margin: auto;
 		margin-top: 12px;
+		float: none;
 	}
 
 	#slide{

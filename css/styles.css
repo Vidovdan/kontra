@@ -222,7 +222,13 @@ img#icon1, img#icon2, img#icon3{
 }
 }
 
-span#mejl{
-	font-style: italic;
-	font-size: 1em;
+#headline span {
+	position: absolute;
+	padding-bottom: 5px;
+	bottom: 5pt;
+	right: 0;
+	text-align: center;
+	width: 100%;
+	font-size: 1.1em;
+	background-color:transparent;
 }

@@ -18,8 +18,7 @@ footer{
 
 
 
-a#logo-img{
-	background: url("../images/logo/prva.jpg") no-repeat;
+#logo{
 	width: 178px;
 	height: 100px;
 	padding: 10px 10px 10px 10px;
@@ -148,7 +147,7 @@ div#home.navbar-brand.visible-xs a span#cent{
 }
 
 hr{
-	border-top: 1px solid #AB0000;
+	border-top: 3px solid #AB0000;
 }
 
 footer a{
@@ -175,7 +174,7 @@ footer #copyright a:hover{
 	color: #AB0000;
 }
 
-footer p.col-xs-6{
+div#uno.col-xs-6, div#due.col-xs-6{
 	text-align: justify;
 	padding-top: 10px;
 }
@@ -184,9 +183,18 @@ footer p.col-xs-6{
 	border-left: 3px solid #AB0000;
 }
 
+#razdvojna{
+	border-top: 1px solid white;
+}
+
+img#icon1, img#icon2, img#icon3{
+	padding: 20px;
+	padding-left: 0px;
+	width: 75px;
+}
 
 @media(max-width: 768px){
-	a#logo-img{
+	#logo{
 		display: block;
 		margin: auto;
 		margin-top: 12px;
@@ -199,9 +207,22 @@ footer p.col-xs-6{
 	#drugipar{
 	border-left:0px solid #AB0000;
 }
+	img#icon1, img#icon2, img#icon3{
+	padding: 10px;
+	padding-left: 0px;
+	width: 50px;
+}
 }
 
-#razdvojna{
-	border-top: 1px solid white;
+@media(max-width: 423px){
+	img#icon1, img#icon2, img#icon3{
+	padding: 5px;
+	padding-left: 0px;
+	width: 40px;
+}
 }
 
+span#mejl{
+	font-style: italic;
+	font-size: 1em;
+}

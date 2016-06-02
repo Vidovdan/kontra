@@ -8,7 +8,7 @@
 			<script src="js/jquery.min.js"></script>
 			<script src="js/bootstrap.js"></script>
 			<script src="js/bootstrap.min.js"></script>
-			<script src="js/script.js"></script>
+
 
 
 			<script type="text/javascript">
@@ -34,7 +34,8 @@
 			<nav id="header-nav" class="navbar navbar-default">
 
 					<div class="navbar-header">
-						 <div> <a href="index.html" id="logo-img"> </a> </div>
+						 <div> <a href="index.html">
+						<img src="images/logo/kontra.png" id="logo" alt="kontra logo"> </a> </div>
 					</div>	    	
 						    
 						  
@@ -111,7 +112,7 @@
 							 else
 							  step=0
 							 //call function "slideit()" every 2.5 seconds
-							 setTimeout("slideit()",3000)
+							 setTimeout("slideit()",5000)
 							}
 
 							slideit()
@@ -148,29 +149,41 @@
 
 
 
+
 			<footer> 
 				<div class="container">
-				<div> <p class="col-xs-6" id="uno"><span>Kontakt:</span><br>
+				<div class="col-xs-6" id="uno"><span>Kontakt:</span><br>
 				Aleksandar Blečić<br>
 				Admirala Zmajevića 7<br>
 				81000 Podgorica<br>
 				Crna Gora<br>
-				e-mail: kontra@kontra.org<br>
+				e-mail: <span id="mejl">kontra@kontra.org<br>
+						filip.despotovic@gmail.com</span><br>
 				telefon: +38268550265<br>
-				</p>
+						 +38267868848<br>
 				</div>
 
-				<div><p class="col-xs-6" id="due"><span>Pratite nas:</span><br>
-				<a href="http://www.facebook.com" target="_blank"> Facebook </a><br>
-				<a href="http://www.instagram.com" target="_blank"> Instagram </a><br>
-				<a href="http://www.twitter.com" target="_blank"> Twitter </a><br>
-				</p>
+				<div class="col-xs-6" id="due"><span>Pratite nas:</span><br>
+				<div id="icons">
+				<a href="http://www.facebook.com">
+						<img src="images/logo/fb.png" id="icon1" alt="facebook"> </a>
+					
+				 <a href="http://www.instagram.com">
+						<img src="images/logo/ig.png" id="icon2" alt="instagram"> </a>
+					
+				 <a href="http://www.twitter.com">
+						<img src="images/logo/tw.png" id="icon3" alt="twitter"> </a>
 				</div>
 				</div>
+				</div>
+
+
 
 			
 
 				<div class="text-center" id="copyright"> <a href="http://www.vidovdanija.tk" target="_blank"> &copy; Copyright Vidovdanija 2016 </a></div>
 			</footer>
+
+						<script src="js/script.js"></script>
 		</body>
 	</html>

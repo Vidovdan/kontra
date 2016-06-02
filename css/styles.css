@@ -172,6 +172,7 @@ footer #copyright a:hover{
 div#uno.col-xs-6, div#due.col-xs-6{
 	text-align: justify;
 	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #drugipar{

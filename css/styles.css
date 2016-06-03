@@ -175,6 +175,11 @@ div#uno.col-xs-6, div#due.col-xs-6{
 	padding-bottom: 10px;
 }
 
+span#broj{
+	font-size: 1em;
+	display: block;
+}
+
 #drugipar{
 	border-left: 3px solid #AB0000;
 }
@@ -218,6 +223,14 @@ img#icon1, img#icon2, img#icon3{
 }
 }
 
+@media(max-width: 362px){
+	img#icon1, img#icon2, img#icon3{
+	padding: 5px;
+	padding-left: 0px;
+	width: 35px;
+}
+}
+
 #headline span {
 	position: absolute;
 	padding-bottom: 5px;
@@ -231,4 +244,10 @@ img#icon1, img#icon2, img#icon3{
 
 .active{
 	text-shadow: -2px 2px 20px #ffc, 2px -2px 20px #fff;
+}
+
+#nav-list>li>a:hover {
+	margin-left: 5px;
+	margin-right: 5px;
+    color:black;
 }

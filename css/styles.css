@@ -16,8 +16,6 @@ footer{
 	color: #AB0000;
 }
 
-
-
 #logo{
 	width: 178px;
 	height: 100px;
@@ -74,17 +72,9 @@ div#home.navbar-brand.visible-xs a span#cent{
 	width: 70%;
 }
 
-
-
 #centriraj{
 	text-align: center;
 }
-
-
-
-
-
-
 
 .hello{
 	padding-top: 85px;
@@ -120,27 +110,6 @@ div#home.navbar-brand.visible-xs a span#cent{
 	margin-bottom: 15px;
 }
 
-
-
-#glavno{
-	color: white;
-	text-align: justify;
-	background-color: gray;
-	background: url("../images/background/blackorchid.png");
-	margin-bottom: 10px;
-}
-
-#glavno h2{
-	text-align: center;
-	color: #AB0000;
-	font-size: 25px;
-    font-weight: 700;
-}
-
-#glavno h3{
-	font-size: 20px;
-}
-
 hr{
 	border-top: 3px solid #AB0000;
 }
@@ -156,7 +125,6 @@ footer a:hover{
 
 footer span{
 	font-size: 1.3em;
-	padding-bottom: 10px;
 }
 
 footer #copyright a{
@@ -172,16 +140,11 @@ footer #copyright a:hover{
 div#uno.col-xs-6, div#due.col-xs-6{
 	text-align: justify;
 	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 span#broj{
 	font-size: 1em;
 	display: block;
-}
-
-#drugipar{
-	border-left: 3px solid #AB0000;
 }
 
 #razdvojna{
@@ -205,8 +168,7 @@ img#icon1, img#icon2, img#icon3{
 	#slide{
 		width: 90%;
 	}
-	#drugipar{
-	border-left:0px solid #AB0000;
+
 }
 	img#icon1, img#icon2, img#icon3{
 	padding: 10px;
@@ -250,4 +212,38 @@ img#icon1, img#icon2, img#icon3{
 	margin-left: 5px;
 	margin-right: 5px;
     color:black;
+}
+
+#novosti .well, #aktuelno .well{
+
+	color: white;
+	text-align: justify;
+	background-color: gray;
+	background: url("../images/background/blackorchid.png");
+	margin-bottom: 10px;
+}
+
+#novosti h2, #aktuelno h2{
+	text-align: center;
+	color: #AB0000;
+	font-size: 25px;
+    font-weight: 700;
+}
+
+#novosti h3, #aktuelno h3{
+	font-size: 20px;
+	text-align: initial;
+}
+div#novosti.col-md-6{ 
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div#aktuelno.col-md-6{
+	padding-right:5px;
+	padding-left: 5px;
+}
+
+div.col-md-12.well{
+	padding-top: 0px;
 }

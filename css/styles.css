@@ -174,46 +174,6 @@ img#icon1, img#icon2, img#icon3{
 	width: 75px;
 }
 
-@media(max-width: 768px){
-	#logo{
-		display: block;
-		margin: auto;
-		margin-top: 12px;
-		float: none;
-	}
-
-	#myCarousel{
-	width: 95%;
-	}
-
-	ol.carousel-indicators{
-		margin-bottom: 0;
-	}
-
-}
-	img#icon1, img#icon2, img#icon3{
-	padding: 10px;
-	padding-left: 0px;
-	width: 50px;
-}
-}
-
-@media(max-width: 423px){
-	img#icon1, img#icon2, img#icon3{
-	padding: 5px;
-	padding-left: 0px;
-	width: 40px;
-}
-}
-
-@media(max-width: 406px){
-	img#icon1, img#icon2, img#icon3{
-	padding: 5px;
-	padding-left: 0px;
-	width: 35px;
-}
-}
-
 #headline span {
 	position: absolute;
 	padding-bottom: 5px;
@@ -235,13 +195,13 @@ img#icon1, img#icon2, img#icon3{
     color:black;
 }
 
-#novosti .well, #aktuelno .well{
-
+div.col-md-12.well{
 	color: white;
 	text-align: justify;
 	background-color: gray;
 	background: url("../images/background/blackorchid.png");
 	margin-bottom: 10px;
+	padding-top: 0px;
 	height: 500px;
 	overflow: overlay;
 }
@@ -267,10 +227,6 @@ div#aktuelno.col-md-6{
 	padding-left: 5px;
 }
 
-div.col-md-12.well{
-	padding-top: 0px;
-}
-
 ::-webkit-scrollbar {
       width: 5px;
 } /* this targets the default scrollbar (compulsory) */
@@ -294,4 +250,54 @@ div.col-md-12.well{
 
 .adresa{
 	text-align: initial;
+}
+
+@media(max-width: 768px){
+	#logo{
+		display: block;
+		margin: auto;
+		margin-top: 12px;
+		float: none;
+	}
+
+	#myCarousel{
+	width: 95%;
+	}
+
+	ol.carousel-indicators{
+		margin-bottom: 0;
+	}
+
+	div.col-md-12.well{
+	color: white;
+	text-align: justify;
+	background-color: gray;
+	background: url("../images/background/blackorchid.png");
+	margin-bottom: 10px;
+	padding-top: 0px;
+	height: auto;
+}
+
+}
+	img#icon1, img#icon2, img#icon3{
+	padding: 10px;
+	padding-left: 0px;
+	width: 50px;
+}
+}
+
+@media(max-width: 423px){
+	img#icon1, img#icon2, img#icon3{
+	padding: 5px;
+	padding-left: 0px;
+	width: 40px;
+}
+}
+
+@media(max-width: 406px){
+	img#icon1, img#icon2, img#icon3{
+	padding: 5px;
+	padding-left: 0px;
+	width: 35px;
+}
 }

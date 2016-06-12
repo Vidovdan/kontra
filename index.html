@@ -3,6 +3,7 @@
 		<head>
 			<link rel="stylesheet" href="css/bootstrap.min.css">
 			<link rel="stylesheet" href="css/styles.css">
+			<link rel="stylesheet" href="css/slider.css">
 			<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 			<script src="js/jquery.min.js"></script>
@@ -80,35 +81,39 @@
 							    </div>
 				</header>
 
-							<div class="container">
-							    <div id="main-tile" class="row">
-							      	<div class="col-xs-12">
-							        	<img id="slide" src="images/slideshow/kontra1.jpg" alt="naslovna"/> 
-							      	</div>
-							    </div>
-							</div>
+							<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-							<script type="text/javascript">
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/slideshow/kontra1.jpg" alt="Chania">
+    </div>
 
-							//variable that will increment through the images
-							var step=0
+    <div class="item">
+      <img src="images/slideshow/kontra2.jpg" alt="Chania">
+    </div>
 
-							function slideit(){
-							 //if browser does not support the image object, exit.
-							 if (!document.images)
-							  return
-							 document.getElementById('slide').src = slideimages[step].src
-							 if (step<2)
-							  step++
-							 else
-							  step=0
-							 //call function "slideit()" every 2.5 seconds
-							 setTimeout("slideit()",5000)
-							}
+    <div class="item">
+      <img src="images/slideshow/kontra3.jpg" alt="Flower">
+    </div>
+  </div>
 
-							slideit()
-
-							</script>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 							<div class="container" id="naslov">
 							<h1> NVO KONTRA </h1>
@@ -118,15 +123,15 @@
 			<div class="row">
 			<div id="novosti" class="col-md-6">
 			<div class="col-md-12 well">
-				<h2>Novosti</h2> <hr>
+					<h2>Novosti</h2> <hr>
     				<h3>Odluka o osnivanju NVO KONTRA</h3> <p>Dana 06.05. donešena je odluka o osnivanju Nevladine organizacije Kontra, te od ovog datuma ista počinje sa radom. NVO je upisana u Registar NVO Crne Gore.</p><br> <hr id="razdvojna">
-    				<h3>Usvojen Statut</h3> <p>Skupština NVO Kontra usvojila je Statut organizacije dana 06.05, i predala dokumentaciju potrebnu za registrovanje organizacije.</p>
+    				<h3>Usvojen Statut</h3> <p>Skupština NVO Kontra usvojila je Statut organizacije dana 06.05, i predala dokumentaciju potrebnu za registrovanje organizacije.</p> <br> <br>
 			</div>
 			</div>
 
 			<div id="aktuelno" class="col-md-6">
 			<div class="col-md-12 well">
-				<h2>Aktuelno</h2> <hr>
+					<h2>Aktuelno</h2> <hr>
     				<h3>Proglašen pobjednik konkursa</h3> <p>Od 20. marta do 20. aprila 2016, NVO KONTRA je organizovala nagradni konkurs povodom izbora idejnog rješenja za logotip. Na konkurs su se mogli prijaviti svi zainteresovani, a on je u navedenom periodu bio vidljiv na oglasnim tablama sva tri Univerziteta. <br> <br>
     				Na konkurs se odazvao veliki broj studenata, tako da smo na kraju birali između 20-ak idejnih rješenja, i jednoglasno odlučili da za logo udruženja odaberemo rješenje Eme Blagojević, studentkinje druge godine grafičkog dizajna Fakulteta za dizajn i multimediju, UDG. Njeno rješenje možete vidjeti na našoj web adresi. </p> <br> <br>
 			</div>
@@ -138,9 +143,10 @@
 				<div class="container">
 				<div class="col-xs-6" id="uno"><span>Kontakt:</span><br>
 				Aleksandar Blečić<br>
-				Admirala Zmajevića 7<br>
+				<div class="adresa"> Admirala Zmajevića 7<br>
 				81000 Podgorica<br>
 				Crna Gora<br>
+				</div>
 				e-mail: kontra@kontra.org<br>
 				telefon: <span id="broj"> +38267801921<br>
 						 +38268550265 </span><br>	 

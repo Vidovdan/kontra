@@ -63,13 +63,20 @@ div#home.navbar-brand.visible-xs a span#cent{
 	text-decoration: none;
 }
 
-
-#slide{
+#myCarousel{
+	width: 60%;
 	display: block;
 	margin: auto;
 	margin-top:10px;
-	margin-bottom: 10px; 
-	width: 70%;
+	margin-bottom: 10px;
+}
+
+.carousel-control.right{
+	background-image: none;
+}
+
+.carousel-control.left{
+	background-image: none;
 }
 
 #centriraj{
@@ -99,9 +106,19 @@ div#home.navbar-brand.visible-xs a span#cent{
 
 #naslov h1{
 	font-weight: bold;
-	color: #AB0000;
 	text-align: center;
 	margin-top: 10px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  color: #AB0000;
+  text-align: center;
+  text-transform: normal;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  white-space: pre;
+  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
 }
 
 #naslov{
@@ -165,8 +182,12 @@ img#icon1, img#icon2, img#icon3{
 		float: none;
 	}
 
-	#slide{
-		width: 90%;
+	#myCarousel{
+	width: 95%;
+	}
+
+	ol.carousel-indicators{
+		margin-bottom: 0;
 	}
 
 }
@@ -185,7 +206,7 @@ img#icon1, img#icon2, img#icon3{
 }
 }
 
-@media(max-width: 362px){
+@media(max-width: 406px){
 	img#icon1, img#icon2, img#icon3{
 	padding: 5px;
 	padding-left: 0px;
@@ -221,6 +242,8 @@ img#icon1, img#icon2, img#icon3{
 	background-color: gray;
 	background: url("../images/background/blackorchid.png");
 	margin-bottom: 10px;
+	height: 400px;
+	overflow: overlay;
 }
 
 #novosti h2, #aktuelno h2{
@@ -246,4 +269,29 @@ div#aktuelno.col-md-6{
 
 div.col-md-12.well{
 	padding-top: 0px;
+}
+
+::-webkit-scrollbar {
+      width: 5px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+      background-color: transparent;
+} /* the new scrollbar will have a flat appearance with the set background color */
+ 
+::-webkit-scrollbar-thumb {
+      background-color: #AB0000; 
+} /* this will style the thumb, ignoring the track */
+ 
+::-webkit-scrollbar-button {
+      background-color: transparent;
+      display: none;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+ 
+::-webkit-scrollbar-corner {
+      background-color: black;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+.adresa{
+	text-align: initial;
 }

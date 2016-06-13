@@ -203,6 +203,17 @@ div.col-md-12.well{
 	margin-bottom: 10px;
 	padding-top: 0px;
 	height: 500px;
+}
+
+div.skrol{
+	color: white;
+	text-align: justify;
+	background-color: gray;
+	background: url("../images/background/blackorchid.png");
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-right: 10px;
+	height: 400px;
 	overflow: overlay;
 }
 
@@ -278,12 +289,21 @@ div#aktuelno.col-md-6{
 	height: auto;
 }
 
+	div.skrol{
+	color: white;
+	text-align: justify;
+	background-color: gray;
+	background: url("../images/background/blackorchid.png");
+	margin-bottom: 10px;
+	padding-top: 0px;
+	padding-right: 0px;
+	height: auto;
+}
 }
 	img#icon1, img#icon2, img#icon3{
 	padding: 10px;
 	padding-left: 0px;
 	width: 50px;
-}
 }
 
 @media(max-width: 423px){

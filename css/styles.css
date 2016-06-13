@@ -129,6 +129,9 @@ div#home.navbar-brand.visible-xs a span#cent{
 
 hr{
 	border-top: 3px solid #AB0000;
+	margin-right: 19px;
+	margin-left: 19px;
+	margin-bottom: 0px;
 }
 
 footer a{
@@ -203,6 +206,7 @@ div.col-md-12.well{
 	margin-bottom: 10px;
 	padding-top: 0px;
 	height: 500px;
+	padding: 0px;
 }
 
 div.skrol{
@@ -211,8 +215,8 @@ div.skrol{
 	background-color: gray;
 	background: url("../images/background/blackorchid.png");
 	margin-bottom: 10px;
+	padding: 19px;
 	padding-top: 0px;
-	padding-right: 10px;
 	height: 400px;
 	overflow: overlay;
 }
@@ -228,6 +232,7 @@ div.skrol{
 	font-size: 20px;
 	text-align: initial;
 }
+
 div#novosti.col-md-6{ 
 	padding-left: 5px;
 	padding-right: 5px;
@@ -294,9 +299,8 @@ div#aktuelno.col-md-6{
 	text-align: justify;
 	background-color: gray;
 	background: url("../images/background/blackorchid.png");
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 	padding-top: 0px;
-	padding-right: 0px;
 	height: auto;
 }
 }

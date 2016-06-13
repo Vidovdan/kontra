@@ -145,6 +145,8 @@ footer a:hover{
 
 footer span{
 	font-size: 1.3em;
+	text-align: center;
+	padding-bottom: 10px;
 }
 
 footer #copyright a{
@@ -157,18 +159,27 @@ footer #copyright a:hover{
 	color: #AB0000;
 }
 
-div#uno.col-xs-6, div#due.col-xs-6{
-	text-align: justify;
+div#due.col-xs-6{
 	padding-top: 10px;
+	display: block;
+    text-align: center;
+}
+
+div#uno.col-xs-6{
+	padding-top: 10px;
+	display: block;
+	text-align: center;
+
 }
 
 span#broj{
 	font-size: 1em;
-	display: block;
+	display: inline-flex;
 }
 
-#razdvojna{
+hr#razdvojna{
 	border-top: 1px solid white;
+	margin:0px;
 }
 
 img#icon1, img#icon2, img#icon3{
@@ -264,8 +275,12 @@ div#aktuelno.col-md-6{
       background-color: black;
 } /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
 
-.adresa{
+div.adresa{
 	text-align: initial;
+	display: table;
+	margin: auto;
+	margin-top: 5px;
+	padding-bottom: 10px;
 }
 
 @media(max-width: 768px){
@@ -308,12 +323,15 @@ div#aktuelno.col-md-6{
 	padding: 10px;
 	padding-left: 0px;
 	width: 50px;
+	padding-top: 0px;
+	margin-top: 10px;
 }
 
 @media(max-width: 423px){
 	img#icon1, img#icon2, img#icon3{
 	padding: 5px;
 	padding-left: 0px;
+	padding-top: 0px;
 	width: 40px;
 }
 }
@@ -322,6 +340,7 @@ div#aktuelno.col-md-6{
 	img#icon1, img#icon2, img#icon3{
 	padding: 5px;
 	padding-left: 0px;
+	padding-top: 0px;
 	width: 35px;
 }
 }

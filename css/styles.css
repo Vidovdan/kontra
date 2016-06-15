@@ -314,7 +314,7 @@ div.adresa{
 	text-align: justify;
 	background-color: gray;
 	background: url("../images/background/blackorchid.png");
-	margin-bottom: 0px;
+	padding-bottom: 0px;
 	padding-top: 0px;
 	height: auto;
 }

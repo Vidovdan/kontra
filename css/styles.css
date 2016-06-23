@@ -310,16 +310,6 @@ div.adresa{
 	padding-top: 0px;
 	height: auto;
 }
-
-	div.skrol{
-	color: white;
-	text-align: justify;
-	background-color: gray;
-	background: url("../images/background/blackorchid.png");
-	padding-bottom: 0px;
-	padding-top: 0px;
-	overflow: overlay;
-}
 }
 	img#icon1, img#icon2, img#icon3{
 	padding: 10px;

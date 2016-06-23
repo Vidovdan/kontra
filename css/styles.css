@@ -131,7 +131,6 @@ hr{
 	border-top: 3px solid #AB0000;
 	margin-right: 19px;
 	margin-left: 19px;
-	margin-bottom: 0px;
 }
 
 footer a{
@@ -300,6 +299,8 @@ div.adresa{
 	}
 
 	div.col-md-12.well{
+	width: 85%;
+	margin: auto;
 	color: white;
 	text-align: justify;
 	background-color: gray;
@@ -316,7 +317,7 @@ div.adresa{
 	background: url("../images/background/blackorchid.png");
 	padding-bottom: 0px;
 	padding-top: 0px;
-	height: auto;
+	overflow: scroll;
 }
 }
 	img#icon1, img#icon2, img#icon3{

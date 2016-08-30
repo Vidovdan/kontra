@@ -1,116 +1,110 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<link rel="stylesheet" href="css/bootstrap.min.css">
-			<link rel="stylesheet" href="css/styles.css">
-			<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<html lang="sr">
+    <head>
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/styles.css">
+	  <link rel="stylesheet" href="css/media_queries.css">
+	  <link rel="stylesheet" href="css/slider.css">
+	  <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-			<script src="js/jquery.min.js"></script>
-			<script src="js/bootstrap.js"></script>
-			<script src="js/bootstrap.min.js"></script>
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/bootstrap.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
 
-			<script type="text/javascript">
-			var slideimages = new Array() // create new array to preload images
-			slideimages[0] = new Image() // create new instance of image object
-			slideimages[0].src = "images/slideshow/kontra1.jpg" // set image src property to image path, preloading image in the process
-			slideimages[1] = new Image()
-			slideimages[1].src = "images/slideshow/kontra2.jpg"
-			slideimages[2] = new Image()
-			slideimages[2].src = "images/slideshow/kontra3.jpg"
-			</script>
-
-			  <meta charset="utf-8">
-			  <meta name="viewport" content="width=device-width"/>
-			  <title>KONTRA</title>	  
-		</head>
-<body>
-	<header>
-			<nav id="header-nav" class="navbar navbar-default">
-
-					<div class="navbar-header">
-						 <div> <a href="index.html">
-						<img src="images/logo/kontra.png" id="logo" alt="kontra logo"> </a> </div>
-					</div>	    	
-						    
-			<div class="navbar-brand visible-xs" id="home">			  
-			<a href="about.html">
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width"/>
+	  <meta name="description" content="Nevladina organizacija nastala sa ciljem ujedinjenja napora entuzijasta koji teže kontinuiranoj i progresivnoj promjeni opšte društvene svijesti">
+	  
+	  <title>NVO KONTRA</title>	  
+	</head>	
+    <body>
+<div id="wrapper">
+<div id="header">
+      <header>
+        <nav id="header-nav" class="navbar navbar-default">
+<!-- Logo -->		
+          <div class="navbar-header">
+            <div> <a href="index.html">
+	          <img src="images/logo/kontra.png" id="logo" alt="kontra logo" width="178" height="100"> </a>
+			</div>
+          </div>	    	
+<!-- Main navbar -->						   
+          <ul class="row nav navbar-nav hidden-xs pull-right goDown">
+            <li> <a href="about.html" class="active"> O nama </a> </li>
+            <li> <a href="aktivnosti.html"> Aktivnosti </a> </li>
+            <li> <a href="projekti.html"> Projekti </a> </li>
+            <li> <a href="clanci.html"> Članci </a> </li>
+            <li> <a href="galerija.html"> Galerija </a> </li>
+          </ul>
+<!-- Collapsable navbar home button-->						    						  
+          <div class="navbar-brand visible-xs" id="home">
+            <a href="index.html">
             <span class="glyphicon glyphicon-user"></span></a>
-            <a href="about.html" id="headline">
+			<a href="about.html" id="headline">
             <span> O nama </span></a>
-            </div>
-            					
-					    <ul class="row nav navbar-nav hidden-xs pull-right hello">
-							<li> <a href="about.html" class="active"> O nama </a> </li>
-							<li> <a href="aktivnosti.html"> Aktivnosti </a> </li>
-							<li> <a href="projekti.html"> Projekti </a> </li>
-							<li> <a href="clanci.html"> Članci </a> </li>
-							<li> <a href="galerija.html"> Galerija </a> </li>
-						</ul>
-
-						<button id="navbarToogle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-						</nav>
-    
-							<div id="collapsable-nav" class="collapse navbar-collapse">
-							        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-							            <li>
-							              <a href="about.html">
-							                <span class="glyphicon glyphicon-user"></span><br> O nama</a>
-							            </li>
-							            <li>
-							              <a href="aktivnosti.html">
-							                <span class="glyphicon glyphicon-bullhorn"></span><br> Aktivnosti</a>
-							            </li>
-							            <li>
-							              <a href="projekti.html">
-							                <span class="glyphicon glyphicon-briefcase"></span><br> Projekti</a>
-							            </li>
-							            <li>
-							              <a href="clanci.html">
-							                <span class="glyphicon glyphicon-pencil"></span><br> Članci</a>
-							            </li>
-							            <li>
-							              <a href="galerija.html">
-							                <span class="glyphicon glyphicon-camera"></span><br> Galerija</a>
-							            </li>
-							        </ul>
-							    </div>
-		</header>
-
-
-							
-		<footer> 
-				<div class="container">
-				<div class="col-xs-6" id="uno"><span>Kontakt:</span><br>
-				<div class="adresa">NVO Kontra<br>
-				Admirala Zmajevića 7<br>
-				81000 Podgorica<br>
-				Crna Gora<br>
-				e-mail: kontra@kontra.org<br>
-				telefon: <span id="broj"> +38267801921<br>
-						 +38268550265 </span><br>	  
-				</div>
-				</div>
-
-				<div class="col-xs-6" id="due"><span>Pratite nas:</span><br>
-				<div id="icons">
-				<a href="https://www.facebook.com/NVO-KONTRA-1248054701886437/">
-						<img src="images/logo/fb.png" id="icon1" alt="facebook"> </a>
-					
-				 <a href="http://www.instagram.com">
-						<img src="images/logo/ig.png" id="icon2" alt="instagram"> </a>
-					
-				 <a href="http://www.twitter.com">
-						<img src="images/logo/tw.png" id="icon3" alt="twitter"> </a>
-				</div>
-				</div>
-				</div>
-
-				<div class="text-center" id="copyright"> <a href="http://www.vidovdanija.tk" target="_blank"> &copy; Vidovdanija 2016 </a></div>
-		</footer>
-	</body>
+          </div>
+<!-- Collapsable navbar toogle button -->		    
+          <button id="navbarToogle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </nav>
+<!-- Collapsable navbar -->    
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+              <li><a href="about.html"><span class="glyphicon glyphicon-user"></span><br> O nama</a></li>
+              <li><a href="aktivnosti.html"><span class="glyphicon glyphicon-bullhorn"></span><br> Aktivnosti</a></li>
+              <li><a href="projekti.html"><span class="glyphicon glyphicon-briefcase"></span><br> Projekti</a></li>
+              <li><a href="clanci.html"><span class="glyphicon glyphicon-pencil"></span><br> Članci</a></li>
+              <li><a href="galerija.html"><span class="glyphicon glyphicon-camera"></span><br> Galerija</a></li>
+            </ul>
+          </div>
+      </header>
+</div>
+<div id="content">
+<!-- Main content -->
+        <div id="aboutus">
+	      <p><span>Nvo Kontra</span> je neprofitna i nepolitička nevladina organizacija nastala sa ciljem buđenja svijesti mladih ljudi o značaju svih oblika kulturnog izražavanja.<br><br>
+		  Polazeći od gledišta da je alternativna kultura, jedan od siromašnijih segmenata našeg društva, Kontra radi na tome da svoje rezultate u borbi protiv mješavine primitivizma i popularne kulture upravo reflektuje na način koji doprinosi širenju zdravije društvene sredine za sve.<br><br>
+		  Plan nam je da kroz raznovrsne projekte omogućimo svima potreban prostor za kvalitetno kulturno izražavanje, i da pritom razbijemo predrasude koje vladaju u našem društvu, a koje se tiču različitih društvenih grupa i njihovog kulturnog izražavanja.<br><br>
+		  Kroz edukaciju, savjetovanje itd. želimo ukazati na opasnosti i probleme koji su prisutni naročito u segmentu alternativne kulture, i omogućiti kvalitetno prevazilaženje istih. Smatramo da je to ispravan način koji doprinosi širenju zdravije društvene sredine za sve.<br><br>
+		  Na taj način želimo pojačati svijest o toleranciji između različitih društvenih grupa, i promovisati osnovno pravo – jednaka prava za sve.<br><br>
+		  </p>
+	    </div>
+</div>
+<div id="footer">
+	  <footer> 
+	    <div class="container">
+<!-- Contact -->
+		  <div class="col-xs-6" id="uno"><span>Kontakt:</span><br>
+		    <div class="address">NVO Kontra<br>
+			  Admirala Zmajevića 7<br>
+			  81000 Podgorica<br>
+			  Crna Gora<br>
+			  e-mail: kontra@kontra.org<br>
+			  telefon: <span class="telephone"> +38267801921<br>
+			  +38268550265 </span><br>	  
+		    </div>
+		  </div>
+<!-- Social networks -->
+		  <div class="col-xs-6" id="due"><span>Pratite nas:</span><br>
+		    <div id="icons">
+			  <a href="https://www.facebook.com/NVO-KONTRA-1248054701886437/">
+			  <img src="images/logo/fb.png" id="icon1" alt="facebook"></a>
+			  <a href="http://www.instagram.com">
+			  <img src="images/logo/ig.png" id="icon2" alt="instagram"></a>
+			  <a href="http://www.twitter.com">
+			  <img src="images/logo/tw.png" id="icon3" alt="twitter"></a>
+			</div>
+		  </div>
+		</div>
+<!-- copyright text -->
+          <div class="text-center" id="copyright"> 
+		    <a href="http://www.vidovdanija.tk" target="_blank"> &copy; Vidovdanija 2016 </a>
+		  </div>
+	  </footer>
+</div>
+</div> 
+    </body>
 </html>

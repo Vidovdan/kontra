@@ -1,0 +1,225 @@
+/* Media query for tablets */
+@media(max-width: 768px) {
+/* Logo */  
+  #logo {
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    float: none;
+  }
+/* Slideshow */
+  #myCarousel {
+    width: 95%;
+  }
+/* Slideshow controls */
+  ol.carousel-indicators {
+    margin-bottom: 0;
+  }
+/* Larger block (container) */
+  div.col-md-12.well {
+    width: 90%;
+    margin: auto;
+    color: white;
+    text-align: justify;
+    background-color: gray;
+    background: url("../images/background/blackorchid.png");
+    margin-bottom: 10px;
+    padding-top: 0px;
+    height: auto;
+}
+}
+/* Media query for mobile */
+@media(max-width: 423px) {
+/*Social media icons */
+  img#icon1, img#icon2, img#icon3{
+      padding: 5px;
+      padding-left: 0px;
+      padding-top: 0px;
+      width: 40px;
+}
+}
+/* Media query for iPhone */
+@media(max-width: 406px) {
+/* Social media icons */
+  img#icon1, img#icon2, img#icon3{
+    padding: 5px;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 35px;
+}
+}
+/*Media query for large screens*/
+@media(min-width: 1600px) {
+/* Logo */	
+  #logo {
+    width: 70%;
+    height: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+/* Navbar links */
+  .navbar-default .navbar-nav>li>a{
+    font-size: 2em;
+  }
+/* Navbar pushed to the bottom */
+  .goDown {
+    padding-top: 150px;
+  }
+/* Width of the carousel image */
+  div.carousel-inner div.item img{
+    width: 100%;
+  }
+/* Margins of the row */
+  div.row{
+    margin-right: 150px;
+    margin-left: 50px;
+  }
+/* Website headline */
+  #description h1 a {
+    font-size: 2.5em;
+  }
+/* Website description */
+  #description {
+    font-size: 2.5em;
+  }
+/* Width of the container for blocks */
+  div#wrapper div#content div.container {
+    width: 1600px;
+  }
+/* Larger block (container) */
+  div.col-md-12.well {
+    height: 1200px;
+    width: 700px;
+    font-size: 2em;
+  }
+/* Text styling for first block */
+  div#novosti.col-md-6 {
+    width: 45%;
+  }
+/* Text styling for second block */
+  div#aktuelno.col-md-6 {
+    width: 45%;
+    float: right;
+  }
+/* Text inside the blocks */
+  div.scrollableText{
+    height: 1000px;
+  }
+/* h2 headlines for both blocks */
+  #novosti h2, #aktuelno h2 {
+    font-size: 50px;
+  }
+/* h3 headlines for both blocks */
+  #novosti h3, #aktuelno h3 {
+    font-size: 40px;
+  }
+/* Date of the posts */
+  .date {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+/* Footer */
+  div#footer{
+    font-size: 2em;
+  }
+  /* Social media icons */
+  img#icon1, img#icon2, img#icon3 {
+    width: 100px;
+  }  
+  /* About us content */
+  div#aboutus {
+    font-size: 2em;
+  }
+  /* Coming soon message */
+  div.comingSoon p {
+    font-size: 4em;
+  }
+}
+
+/*Media query for largest screens*/
+@media(min-width: 2559px) {
+/* Logo */
+  #logo {
+    width: 75%;
+    height: 75%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+/* Navbar links */
+  .navbar-default .navbar-nav>li>a{
+    font-size: 2.3em;
+  }
+/* Navbar pushed to the bottom */
+  .goDown {
+    padding-top: 165px;
+  }
+/* Width of the carousel image */
+  div.carousel-inner div.item img{
+    width: 100%;
+  }
+/* Margins of the row*/
+  div.row{
+    margin-right: 150px;
+    margin-left: 60px;
+  }
+/* Website headline */
+  #description h1 a {
+    font-size: 2.7em;
+  }
+/* Website description */
+  #description {
+    font-size: 2.7em;
+  }
+/* Width of the container for blocks */
+  div#wrapper div#content div.container {
+    width: 2500px;
+  } 
+/* Larger block (container) */
+  div.col-md-12.well {
+    height: 1200px;
+    width: 1150px;
+    font-size: 2.3em;
+  }
+/* Text styling for first block */
+  div#novosti.col-md-6 {
+    width: 48%;
+  }
+/* Text styling for second block */
+  div#aktuelno.col-md-6 {
+    width: 48%;
+    float: right;
+  }
+/* Text inside the blocks */
+  div.scrollableText{
+    height: 1000px;
+  }
+/* h2 headlines for both blocks */
+  #novosti h2, #aktuelno h2 {
+    font-size: 60px;
+  }
+/* h3 headlines for both blocks */
+  #novosti h3, #aktuelno h3 {
+    font-size: 45px;
+  }
+/* Date of the posts */
+  .date {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+/* Footer */
+  div#footer{
+    font-size: 2.3em;
+  }
+/* Social media icons */
+  img#icon1, img#icon2, img#icon3 {
+    width: 100px;
+  }
+/* About us content */
+  div#aboutus {
+    font-size: 2.3em;
+  }
+/* Coming soon message */
+  div.comingSoon p {
+    font-size: 4.5em;
+  } 
+}

@@ -1,183 +1,171 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<link rel="stylesheet" href="css/bootstrap.min.css">
-			<link rel="stylesheet" href="css/styles.css">
-			<link rel="stylesheet" href="css/slider.css">
-			<link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<html lang="sr">
+    <head>
+      <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width"/>
+	  <meta name="description" content="Nevladina organizacija nastala sa ciljem ujedinjenja napora entuzijasta koji teže kontinuiranoj i progresivnoj promjeni opšte društvene svijesti">
 
-			<script src="js/jquery.min.js"></script>
-			<script src="js/bootstrap.js"></script>
-			<script src="js/bootstrap.min.js"></script>
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="css/styles.css">
+	  <link rel="stylesheet" href="css/media_queries.css">
+	  <link rel="stylesheet" href="css/slider.css">
+	  <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
-			<script type="text/javascript">
-			var slideimages = new Array() // create new array to preload images
-			slideimages[0] = new Image() // create new instance of image object
-			slideimages[0].src = "images/slideshow/kontra1.jpg" // set image src property to image path, preloading image in the process
-			slideimages[1] = new Image()
-			slideimages[1].src = "images/slideshow/kontra2.jpg"
-			slideimages[2] = new Image()
-			slideimages[2].src = "images/slideshow/kontra3.jpg"
-			</script>
-
-			  <meta charset="utf-8">
-			  <meta name="viewport" content="width=device-width"/>
-			  <title>KONTRA</title>	  
-		</head>
-<body>
-	<header>
-			<nav id="header-nav" class="navbar navbar-default">
-
-					<div class="navbar-header">
-						 <div> <a href="index.html">
-						<img src="images/logo/kontra.png" id="logo" alt="kontra logo"> </a> </div>
-					</div>	    	
-						    						  
-						    <div class="navbar-brand visible-xs" id="home">
-            				<a href="index.html">
-            				<span class="glyphicon glyphicon-home"></span></a>
-          					</div>
-						   
-					    <ul class="row nav navbar-nav hidden-xs pull-right hello">
-							<li> <a href="about.html"> O nama </a> </li>
-							<li> <a href="aktivnosti.html"> Aktivnosti </a> </li>
-							<li> <a href="projekti.html"> Projekti </a> </li>
-							<li> <a href="clanci.html"> Članci </a> </li>
-							<li> <a href="galerija.html"> Galerija </a> </li>
-						</ul>
-		    
-						<button id="navbarToogle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-
-						</nav>
-    
-							<div id="collapsable-nav" class="collapse navbar-collapse">
-							        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-							            <li>
-							              <a href="about.html">
-							                <span class="glyphicon glyphicon-user"></span><br> O nama</a>
-							            </li>
-							            <li>
-							              <a href="aktivnosti.html">
-							                <span class="glyphicon glyphicon-bullhorn"></span><br> Aktivnosti</a>
-							            </li>
-							            <li>
-							              <a href="projekti.html">
-							                <span class="glyphicon glyphicon-briefcase"></span><br> Projekti</a>
-							            </li>
-							            <li>
-							              <a href="clanci.html">
-							                <span class="glyphicon glyphicon-pencil"></span><br> Članci</a>
-							            </li>
-							            <li>
-							              <a href="galerija.html">
-							                <span class="glyphicon glyphicon-camera"></span><br> Galerija</a>
-							            </li>
-							        </ul>
-							    </div>
-				</header>
-
-							<div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="images/slideshow/kontra1.jpg" alt="Kontra">
-    </div>
-
-    <div class="item">
-      <img src="images/slideshow/kontra2.jpg" alt="Kontra">
-    </div>
-
-    <div class="item">
-      <img src="images/slideshow/kontra3.jpg" alt="Kontra">
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+	  <script src="js/jquery.min.js"></script>
+	  <script src="js/bootstrap.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script type="text/javascript">
+		var slideimages = new Array() // create new array to preload images
+		slideimages[0] = new Image() // create new instance of image object
+		slideimages[0].src = "images/slideshow/kontra1.jpg" // set image src property to image path, preloading image in the process
+		slideimages[1] = new Image()
+		slideimages[1].src = "images/slideshow/kontra2.jpg"
+		slideimages[2] = new Image()
+		slideimages[2].src = "images/slideshow/kontra3.jpg"
+	  </script>
+	  
+	  <title>NVO KONTRA</title>	  
+	</head>	
+    <body>
+<div id="wrapper">
+<div id="header">
+      <header>
+        <nav id="header-nav" class="navbar navbar-default">
+<!-- Logo -->		
+          <div class="navbar-header">
+            <div> <a href="index.html">
+	          <img src="images/logo/kontra.png" id="logo" alt="kontra logo" width="178" height="100"> </a>
+			</div>
+          </div>	    	
+<!-- Main navbar -->						   
+          <ul class="row nav navbar-nav hidden-xs pull-right goDown">
+            <li> <a href="about.html"> O nama </a> </li>
+            <li> <a href="aktivnosti.html"> Aktivnosti </a> </li>
+            <li> <a href="projekti.html"> Projekti </a> </li>
+            <li> <a href="clanci.html"> Članci </a> </li>
+            <li> <a href="galerija.html"> Galerija </a> </li>
+          </ul>
+<!-- Collapsable navbar home button-->						    						  
+          <div class="navbar-brand visible-xs" id="home">
+            <a href="index.html">
+            <span class="glyphicon glyphicon-home"></span></a>
+          </div>
+<!-- Collapsable navbar toogle button -->		    
+          <button id="navbarToogle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </nav>
+<!-- Collapsable navbar -->    
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+            <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+              <li><a href="about.html"><span class="glyphicon glyphicon-user"></span><br> O nama</a></li>
+              <li><a href="aktivnosti.html"><span class="glyphicon glyphicon-bullhorn"></span><br> Aktivnosti</a></li>
+              <li><a href="projekti.html"><span class="glyphicon glyphicon-briefcase"></span><br> Projekti</a></li>
+              <li><a href="clanci.html"><span class="glyphicon glyphicon-pencil"></span><br> Članci</a></li>
+              <li><a href="galerija.html"><span class="glyphicon glyphicon-camera"></span><br> Galerija</a></li>
+            </ul>
+          </div>
+      </header>
 </div>
-
-							<div class="container" id="naslov">
-							<h1> NVO KONTRA </h1>
-							<p class="text-center"> Nevladina organizacija nastala sa ciljem ujedinjenja napora entuzijasta koji teže kontinuiranoj i progresivnoj promjeni opšte društvene svijesti. </p> </div>
-
-			<div class="container">
-			<div class="row">
-			<div id="novosti" class="col-md-6">
+<div id="content">
+	  <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+<!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+<!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="images/slideshow/kontra1.jpg" alt="Kontra">
+          </div>
+          <div class="item">
+            <img src="images/slideshow/kontra2.jpg" alt="Kontra">
+          </div>
+          <div class="item">
+            <img src="images/slideshow/kontra3.jpg" alt="Kontra">
+          </div>
+        </div>
+<!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+<!-- Headline and description -->
+	  <div class="container" id="description">
+	    <h1> <a href="#header-nav"> NVO KONTRA </a></h1>
+		<p class="text-center"> Nevladina organizacija nastala sa ciljem ujedinjenja napora entuzijasta koji teže kontinuiranoj i progresivnoj promjeni opšte društvene svijesti. </p> 
+	  </div>
+		<!-- Left block -->
+	  <div class="container">
+	    <div class="row">
+		  <div id="novosti" class="col-md-6">
 			<div class="col-md-12 well">
-					<h2>Novosti</h2> <hr>
-					<div class="skrol">
-    				<h3>Odluka o osnivanju NVO KONTRA</h3> <p>Dana 06.05. donešena je odluka o osnivanju Nevladine organizacije Kontra, te od ovog datuma ista počinje sa radom. NVO je upisana u Registar NVO Crne Gore.</p> <br> <hr id="razdvojna">
-    				<h3>Usvojen Statut</h3> <p>Skupština NVO Kontra usvojila je Statut organizacije dana 06.05, i predala dokumentaciju potrebnu za registrovanje organizacije.</p> <br>
-    				</div>
-			</div>
-			</div>
-
-			<div id="aktuelno" class="col-md-6">
-			<div class="col-md-12 well">
-					<h2>Aktuelno</h2> <hr>
-					<div class="skrol">
-    				<h3>Proglašen pobjednik konkursa</h3> <p>Od 20. marta do 20. aprila 2016, NVO KONTRA je organizovala nagradni konkurs povodom izbora idejnog rješenja za logotip. Na konkurs su se mogli prijaviti svi zainteresovani, a on je u navedenom periodu bio vidljiv na oglasnim tablama sva tri Univerziteta. <br> <br>
-    				Na konkurs se odazvao veliki broj studenata, tako da smo na kraju birali između 20-ak idejnih rješenja, i jednoglasno odlučili da za logo udruženja odaberemo rješenje Eme Blagojević, studentkinje druge godine grafičkog dizajna Fakulteta za dizajn i multimediju, UDG. Njeno rješenje možete vidjeti na našoj web stranici. </p> <br> <hr id="razdvojna">
-
-    				<h3>Proglašen pobjednik konkursa</h3> <p>Od 20. marta do 20. aprila 2016, NVO KONTRA je organizovala nagradni konkurs povodom izbora idejnog rješenja za logotip. Na konkurs su se mogli prijaviti svi zainteresovani, a on je u navedenom periodu bio vidljiv na oglasnim tablama sva tri Univerziteta. <br> <br>
-    				Na konkurs se odazvao veliki broj studenata, tako da smo na kraju birali između 20-ak idejnih rješenja, i jednoglasno odlučili da za logo udruženja odaberemo rješenje Eme Blagojević, studentkinje druge godine grafičkog dizajna Fakulteta za dizajn i multimediju, UDG. Njeno rješenje možete vidjeti na našoj web adresi. </p> <br> <hr id="razdvojna">
-
-    				<h3>Proglašen pobjednik konkursa</h3> <p>Od 20. marta do 20. aprila 2016, NVO KONTRA je organizovala nagradni konkurs povodom izbora idejnog rješenja za logotip. Na konkurs su se mogli prijaviti svi zainteresovani, a on je u navedenom periodu bio vidljiv na oglasnim tablama sva tri Univerziteta. <br> <br>
-    				Na konkurs se odazvao veliki broj studenata, tako da smo na kraju birali između 20-ak idejnih rješenja, i jednoglasno odlučili da za logo udruženja odaberemo rješenje Eme Blagojević, studentkinje druge godine grafičkog dizajna Fakulteta za dizajn i multimediju, UDG. Njeno rješenje možete vidjeti na našoj web adresi. </p> <br>
-    				</div>
-			</div>
-			</div>
-			</div>
-			</div>
-			</div>
-			</div>
-
-			<footer> 
-				<div class="container">
-				<div class="col-xs-6" id="uno"><span>Kontakt:</span><br>
-				<div class="adresa">NVO Kontra<br>
-				Admirala Zmajevića 7<br>
-				81000 Podgorica<br>
-				Crna Gora<br>
-				e-mail: kontra@kontra.org<br>
-				telefon: <span id="broj"> +38267801921<br>
-						 +38268550265 </span><br>	  
+			  <h2>Novosti</h2> <hr class="headliner">
+				<div class="scrollableText">
+				  <h3>Otvorena internet stranica <span class="date">10. septembar 2016.</span> </h3> 
+				    <p>Sa zadovoljstvom Vas obavještavamo da je otvorena internet prezentacija naše organizacije, na kojoj možete pronaći sve informacije koje se tiču rada NVO Kontra.</p> <br> <hr>
+    			  <h3>Donešena odluka o osnivanju NVO Kontra <span class="date">06. maj 2016.</span> </h3>
+				    <p>Odluka o osnivanju Nevladine organizacije Kontra donešena je danas, te od ovog datuma ista počinje sa radom. NVO je upisana u Registar NVO Crne Gore.</p> <br> <hr>
+    			  <h3>Usvojen Statut <span class="date">06. maj 2016.</span> </h3>
+				    <p>Skupština NVO Kontra usvojila je Statut organizacije, i predala dokumentaciju potrebnu za registrovanje nevladine organizacije.</p> <br>
 				</div>
-				</div>
-
-				<div class="col-xs-6" id="due"><span>Pratite nas:</span><br>
-				<div id="icons">
-				<a href="https://www.facebook.com/NVO-KONTRA-1248054701886437/">
-						<img src="images/logo/fb.png" id="icon1" alt="facebook"> </a>
-					
-				 <a href="http://www.instagram.com">
-						<img src="images/logo/ig.png" id="icon2" alt="instagram"> </a>
-					
-				 <a href="http://www.twitter.com">
-						<img src="images/logo/tw.png" id="icon3" alt="twitter"> </a>
-				</div>
-				</div>
-				</div>
-
-				<div class="text-center" id="copyright"> <a href="http://www.vidovdanija.tk" target="_blank"> &copy; Vidovdanija 2016 </a></div>
-			</footer>
-	</body>
+			</div>
+		  </div>
+<!-- Right block -->
+	  <div id="aktuelno" class="col-md-6">
+	    <div class="col-md-12 well">
+		  <h2>Aktuelno</h2> <hr class="headliner">
+		      <div class="scrollableText">
+    		    <h3>Proglašen pobjednik konkursa <span class="date">30. april 2016.</span> </h3> 
+			      <p>Od 20. marta do 20. aprila 2016, NVO Kontra je organizovala nagradni konkurs povodom izbora idejnog rješenja za logotip. Na konkurs su se mogli prijaviti svi zainteresovani, a on je u navedenom periodu bio vidljiv na oglasnim tablama sva tri Univerziteta. <br> <br>
+    				Na konkurs se odazvao veliki broj studenata, tako da smo na kraju birali između 20-ak idejnih rješenja, i jednoglasno odlučili da za logo udruženja odaberemo rješenje Eme Blagojević, studentkinje druge godine grafičkog dizajna Fakulteta za dizajn i multimediju, UDG. Njeno rješenje možete vidjeti na našoj web stranici. </p> <br>
+    		  </div>
+		    </div>
+	      </div>
+	    </div>
+	  </div>
+</div>
+<div id="footer">
+	  <footer> 
+	    <div class="container">
+<!-- Contact -->
+		  <div class="col-xs-6" id="uno"><span class="footerHeadlines">Kontakt:</span><br>
+		    <div class="address">NVO Kontra<br>
+			  Admirala Zmajevića 7<br>
+			  81000 Podgorica<br>
+			  Crna Gora<br>
+			  e-mail: <a href="mailto:kontra@kontra.org">kontra@kontra.org</a><br>
+			  telefon: <span class="telephone"><a href="tel:+38267801921">+38267801921</a><br>
+			  <a href="tel:+38268550265">+38268550265</a></span><br>  
+		    </div>
+		  </div>
+<!-- Social networks -->
+		  <div class="col-xs-6" id="due"><span class="footerHeadlines">Pratite nas:</span><br>
+		    <div id="icons">
+			  <a href="https://www.facebook.com/NVO-KONTRA-1248054701886437/">
+			  <img src="images/logo/fb.png" id="icon1" alt="facebook"></a>
+			  <a href="http://www.instagram.com">
+			  <img src="images/logo/ig.png" id="icon2" alt="instagram"></a>
+			  <a href="http://www.twitter.com">
+			  <img src="images/logo/tw.png" id="icon3" alt="twitter"></a>
+			</div>
+		  </div>
+		</div>
+<!-- copyright text -->
+          <div class="text-center" id="copyright"> 
+		    <a href="http://www.vidovdanija.tk" target="_blank"> &copy; Vidovdanija 2016 </a>
+		  </div>
+	  </footer>
+</div>
+</div>
+    </body>
 </html>

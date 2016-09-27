@@ -249,7 +249,7 @@ div.address {
 }
 /* Telephone number styling */
 span.telephone {
-  display: inline-table;
+  display: table;
 }
 /* Social media icons*/
 img#icon1, img#icon2, img#icon3 {
